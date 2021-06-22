@@ -1,0 +1,164 @@
+body {
+	margin: 0px;
+	text-align: center;
+	color: #40514E;
+	font-family: "Merriweather", serif;
+
+}
+h1 {
+	color: #66BFBF;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.625rem;
+	/* 16px = 1em = 100% */
+	/* 100% font size = 16px so 90px will be 90/16 * 100 = 562.5% */
+}
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+	color: #66BFBF;
+}
+h3 {
+	color: #11999E;
+}
+p {
+	line-height: 2;
+
+}
+.top-cloud {
+	position: absolute;
+	right: 500px;
+	top: 20px;
+}
+
+hr {
+	color: #01937C;
+	border-style: dotted none none;
+	width: 5%;
+	border-width: 10px;
+	margin: 100px auto;
+}
+
+.my_pic {
+	margin-top: 50px;
+}
+
+
+.intro {
+	width: 30%;
+	margin: auto;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 20%;
+	top: 410px;
+
+}
+
+#top-container {
+	background-color:#EAF6F6;
+	padding-top: 100px;
+	position: relative;
+}
+
+
+.bottom-container {
+	margin-top: 50px;
+	padding-top: 20px;
+	background-color: #66BFBF;
+	position: relative;
+	height: 200px;
+
+}
+
+.copyright {
+	color: #EAF6F6;
+	position: absolute;
+	top: 100px;
+	left: 45%;
+	font-size: 0.75rem;
+}
+
+.footer-link {
+	top: 10px;
+	margin: 30px;
+	color: #11999E;
+}
+
+.contact-me {
+	position: relative;
+	height: 300px;
+}
+
+.btn {
+	position: absolute;
+	text-decoration: none;
+	bottom: 30px;
+	color: white;
+	font-size: 20px;
+	left: 45%;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #11999E;
+	border: solid #11999E;
+}
+
+#top_btn{
+	position: relative;
+	bottom: 0px;
+	left: 58%;
+	padding: 3px;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #EAF6F6;
+}
+
+.btn:hover {
+	background-color: white;
+	border: solid #11999E;
+	color: black;
+}
+
+.skill-row {
+	padding: 10px;
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	border: solid #11999E;
+	border-radius: 8px;
+}
+.python_img {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+
+}
+/* HTML skills section */
+
+.html_img {
+	width: 20%;
+	float: right;
+	margin-left: 30px;
+}
+/*CSS skills section*/
+
+
+.css_img {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+}
+/*Github skills section*/
+
+.git_img {
+	margin-top: 10px;
+	width: 20%;
+	float: right;
+	margin-left: 30px;
+}

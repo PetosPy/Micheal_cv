@@ -1,0 +1,61 @@
+h1 {
+	color: #66BFBF;
+	font-family: 'Sacramento', cursive;
+	font-size: 4.625rem;
+	/* 16px = 1em = 100% */
+	/* 100% font size = 16px so 90px will be 90/16 * 100 = 562.5% */
+}
+table {
+	margin-left: 10px;
+	font-size: 16px;
+	color: #40514E;
+	font-family: "Merriweather", serif;
+
+}
+.pic {
+	position: absolute;
+	/*width: 600px;*/
+	left: 50%;
+	top: 20%;
+}
+td {
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+h3 {
+	margin-left: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
+	font-weight: normal;
+	color: #66BFBF;
+}
+
+.bottom-container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #66BFBF;
+	height: 200px;
+
+}
+
+.copyright {
+	color: #EAF6F6;
+	position: absolute;
+	top: 100px;
+	left: 46%;
+	font-size: 0.75rem;
+}
+
+.footer-link {
+	position: relative;
+	padding: 20px;
+	top: 10px;
+	left: 41%;
+	color: white;
+}
