@@ -162,3 +162,8 @@ a:hover {
 	float: right;
 	margin-left: 30px;
 }
+.flask_img {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+}
